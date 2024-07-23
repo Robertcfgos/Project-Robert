@@ -10,8 +10,8 @@ _________
   - [Write UP](#write-up)
   - [Introduction](#introduction)
   - [Comment Ça Marche?](#comment-ça-marche)
-    - [Labs](#labs)
-    - [Apuntes](#apuntes)
+    - [Pourquoi Utiliser l'Obfuscation?](#pourquoi-utiliser-lobfuscation)
+    - [Solution Javascript - Obfuscation 3](#solution-javascript---obfuscation-3)
     - [Examen](#examen)
   - [Unidad 2. Microsoft Entra](#unidad-2-microsoft-entra)
     - [Examen](#examen-1)
@@ -46,20 +46,22 @@ _________
 > L'obfuscation fonctionne en transformant le code JavaScript en une version équivalente mais beaucoup plus difficile à lire. Voici quelques techniques couramment utilisées :
 
 
-- [Renommage des Variables : Les noms de variables significatifs sont remplacés par des noms plus courts et sans signification, comme a, b, c, etc.]
-- [Suppression des Espaces et des Commentaires : Tous les espaces blancs, les retours à la ligne et les commentaires sont supprimés pour rendre le code plus compact et difficile à lire.]
-- [Encodage : Les chaînes de caractères et les valeurs numériques peuvent être encodées en utilisant des systèmes comme l'hexadécimal ou l'unicode.]
-- [Réorganisation du Code : Le flux logique du code peut être réorganisé pour masquer sa structure d'origine.]
+- Renommage des Variables : Les noms de variables significatifs sont remplacés par des noms plus courts et sans signification, comme a, b, c, etc.
+- Suppression des Espaces et des Commentaires : Tous les espaces blancs, les retours à la ligne et les commentaires sont supprimés pour rendre le code plus compact et difficile à lire.
+- Encodage : Les chaînes de caractères et les valeurs numériques peuvent être encodées en utilisant des systèmes comme l'hexadécimal ou l'unicode.
+- Réorganisation du Code : Le flux logique du code peut être réorganisé pour masquer sa structure d'origine.
 
 
-### Labs
+### Pourquoi Utiliser l'Obfuscation?
+- Protection de la Propriété Intellectuelle : Empêche les autres de comprendre et de réutiliser votre code sans autorisation.
+- Sécurité : Rend plus difficile la tâche des attaquants cherchant à comprendre et exploiter des failles dans le code.
+- Optimisation : Parfois, l'obfuscation peut réduire la taille du fichier, améliorant ainsi les temps de chargement.
 
-- [Implementación de autenticación multifactor]()
-- [Exploración de Microsoft Entra ID (antes Azure AD)]()
+Cependant, il est important de noter que l'obfuscation ne doit pas être considérée comme une solution de sécurité complète, mais plutôt comme une couche supplémentaire de protection. Les développeurs doivent toujours suivre les meilleures pratiques de sécurité en plus de l'obfuscation.
 
-### Apuntes
-- [Apunte 1](/apuntes/apunte1.pdf)
-- [Apunte 2](/apuntes/apunte2.pdf)
+### Solution Javascript - Obfuscation 3
+- Dès que vous ouvrez la page, une boîte de dialogue interactive apparaît et demande un mot de passe. Peu importe ce que vous entrez, le message "FAUX PASSWORD HAHA" apparaît.
+| ![imagen 1](/imgs/Image1.png){width=600px}
 
 ### Examen
 - [Aquí haz el examen de la Unidad 1 y Unidad 2](https://kahoot.it/challenge/008359766?challenge-id=17c998c7-d2ca-4aad-8555-25d087dca7da_1710189162939)
