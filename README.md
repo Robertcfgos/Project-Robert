@@ -61,6 +61,7 @@ Cependant, il est important de noter que l'obfuscation ne doit pas être consid�
 
 ### Solution Javascript - Obfuscation 3
 - Dès que vous ouvrez la page, une boîte de dialogue interactive apparaît et demande un mot de passe. Peu importe ce que vous entrez, le message "FAUX PASSWORD HAHA" apparaît.
+
 | ![imagen 1](/imgs/Image1.png){width=600px}
 
 ### Examen
