@@ -1,14 +1,14 @@
-# Acordeón SC-900
-## Microsoft Security, Compliance, and Identity Fundamentals
+# JavaScript - Obfuscation 3
+## Write UP
 
 _________
 
 
 <!-- TOC -->
 
-- [Acordeón SC-900](#acordeón-sc-900)
-  - [Microsoft Security, Compliance, and Identity Fundamentals](#microsoft-security-compliance-and-identity-fundamentals)
-  - [Unidad 0. Fundamentos necesarios](#unidad-0-fundamentos-necesarios)
+- [JavaScript - Obfuscation 3](#javascript---obfuscation-3)
+  - [Write UP](#write-up)
+  - [Introduction](#introduction)
   - [Unidad 1. Conceptos básicos de seguridad, cumplimiento e identidad](#unidad-1-conceptos-básicos-de-seguridad-cumplimiento-e-identidad)
     - [Labs](#labs)
     - [Apuntes](#apuntes)
@@ -37,7 +37,7 @@ _________
 _________
 _________
 
-## Unidad 0. Fundamentos necesarios
+## Introduction
 
 - [Video: Fundamentos de Microsoft Azure en español - Preparación AZ-900](https://www.youtube.com/watch?v=rYW75_0RCzU&t=4491s)
 
