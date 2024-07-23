@@ -29,7 +29,7 @@ _________
 |----------|----------|
 
 
-**Recuerda que no tienes que hacer todo sino lo que necesites para aprovechar el viaje y conseguir la certificación**
+**Je ne pirate pas pour détruire, je pirate pour comprendre.**
 
 _________
 _________
@@ -43,22 +43,14 @@ _________
 
 ## Comment Ça Marche?
 
-> Obtén información sobre los conceptos básicos fundamentales para la seguridad, el cumplimiento y las soluciones de identidad, como la confianza cero, la residencia de datos, la responsabilidad compartida, el rol de los proveedores de identidades, etc.
+> L'obfuscation fonctionne en transformant le code JavaScript en une version équivalente mais beaucoup plus difficile à lire. Voici quelques techniques couramment utilisées :
 
-**¡IMPORTANTE!** Revisa al path de Microsoft Learn: **[-> DALE CLIC AQUÍ <-](https://learn.microsoft.com/es-es/training/paths/describe-concepts-of-security-compliance-identity/)**
 
-- [Conceptos básicos de ciberseguridad](/docs/conceptos_basicos.md)
-- [Presentación de fundamentos de ciberseguridad](/docs/Presentacion%20taller%20ciberseguridad%20básica.pdf)
-- [Modelo de confianza cero (Zero trust)](/docs/zero-trust.md)
-- [Fases de un ataque](/docs/fases_ataque.md)
-- [Roles vs Directivas](/docs/roles_directivas.md)
-- [Modelo de responsabilidad compartida](/docs/modelo-shared-responsability.md)
-- [Explicación del cifrado](/docs/cifrado.md)
-- [Explicación de gobernanza]()
-- [Métodos de autenticación multifactorial]()
-- [Microsoft Entra ID]()
-- [Explicación de federación]()
-- [Diferencias entre licencias de Microsoft Entra ID]()
+- [Renommage des Variables : Les noms de variables significatifs sont remplacés par des noms plus courts et sans signification, comme a, b, c, etc.]
+- [Suppression des Espaces et des Commentaires : Tous les espaces blancs, les retours à la ligne et les commentaires sont supprimés pour rendre le code plus compact et difficile à lire.]
+- [Encodage : Les chaînes de caractères et les valeurs numériques peuvent être encodées en utilisant des systèmes comme l'hexadécimal ou l'unicode.]
+- [Réorganisation du Code : Le flux logique du code peut être réorganisé pour masquer sa structure d'origine.]
+
 
 ### Labs
 
