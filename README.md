@@ -9,15 +9,11 @@ _________
 - [JavaScript - Obfuscation 3](#javascript---obfuscation-3)
   - [Write UP](#write-up)
   - [Introduction](#introduction)
-  - [Comment Ça Marche?](#comment-ça-marche)
-    - [Pourquoi Utiliser l'Obfuscation?](#pourquoi-utiliser-lobfuscation)
-    - [Solution Javascript - Obfuscation 3](#solution-javascript---obfuscation-3)
-    - [Examen](#examen)
-  - [Unidad 2. Microsoft Entra](#unidad-2-microsoft-entra)
-    - [Examen](#examen-1)
-  - [Unidad 3. Soluciones de seguridad de Microsoft](#unidad-3-soluciones-de-seguridad-de-microsoft)
-    - [Examen](#examen-2)
-  - [Unidad 4. Soluciones de cumplimiento de Microsoft](#unidad-4-soluciones-de-cumplimiento-de-microsoft)
+   - [Comment Ça Marche?](#comment-ça-marche)
+     - [Pourquoi Utiliser l'Obfuscation?](#pourquoi-utiliser-lobfuscation)
+  - [Solution Javascript - Obfuscation 3](#solution-javascript---obfuscation-3)
+  - [Conclusion](#conclusion)
+
 
 <!-- /TOC -->
 
@@ -62,35 +58,38 @@ Cependant, il est important de noter que l'obfuscation ne doit pas être consid�
 ### Solution Javascript - Obfuscation 3
 - Dès que vous ouvrez la page, une boîte de dialogue interactive apparaît et demande un mot de passe. Peu importe ce que vous entrez, le message "FAUX PASSWORD HAHA" apparaît.
 
-| ![imagen 1](/imgs/Image1.png){width=300px}
+| ![imagen 1](/imgs/Image1.png)
 
-| ![imagen 2](/imgs/Image2.png){width=300px}
+| ![imagen 2](/imgs/Image2.png)
 
-### Examen
-- [Aquí haz el examen de la Unidad 1 y Unidad 2](https://kahoot.it/challenge/008359766?challenge-id=17c998c7-d2ca-4aad-8555-25d087dca7da_1710189162939)
-
-_________
-
-## Unidad 2. Microsoft Entra
-
-TBA
+- Ouvrez les outils de développement de votre navigateur En Firefox: Pulsa Ctrl+Shift+K,
+- Allez dans l'onglet Débogueur et trouvez un fichier JavaScript nommé ch13.html. Dans ce fichier, il y a une fonction utilisée pour vérifier le mot de passe. Une analyse rapide montre que cette fonction renvoie toujours le message "FAUX PASSWORD HAHA", peu importe ce que vous entrez (la première ligne du code contient simplement les codes ASCII en base décimale de ce message, utilisés pour embrouiller).
+- La clé se trouve dans la ligne suivante du code :
+- String["fromCharCode"](dechiffre("\x35\x35\x2c\x35\x36\x2c\x35\x34\x2c\x37\x39\x2c\x31\x31\x35\x2c\x36\x39\x2c\x31\x31\x34\x2c\x31\x31\x36\x2c\x31\x30\x37\x2c\x34\x39\x2c\x35\x30"));
 
 
-### Examen
-- [Aquí haz el examen de la Unidad 1 y Unidad 2](https://kahoot.it/challenge/008359766?challenge-id=17c998c7-d2ca-4aad-8555-25d087dca7da_1710189162939)
-_________
+| ![imagen 3](/imgs/Image3.png)
 
-## Unidad 3. Soluciones de seguridad de Microsoft
+- Cette ligne de code, bien qu'elle ne semble pas liée au reste, donne un indice : fromCharCode indique une décodage ASCII, et la chaîne suivante contient des nombres en hexadécimal.
 
-TBA
+- Avec l'aide de [UNPHP] (https://www.unphp.net/decode/), vous pouvez faire le décodage de l'hexadécimal au décimal.
 
-### Examen
-- [Aquí haz el examen de la Unidad 3](https://kahoot.it/challenge/004065448?challenge-id=17c998c7-d2ca-4aad-8555-25d087dca7da_1710546566038)
+- Après le décodage, vous obtenez une série de nombres décimaux et virgules :
+       5 5 , 5 6 , 5 4 , 7 9 , 1 1 5 , 6 9 , 1 1 4 , 1 1 6 , 1 0 7 , 4 9 , 5 0
+- Allez dans l'onglet Console et tapez :
+      String.fromCharCode(55,56,54,79,115,69,114,116,107,49,50);
 
-_________
+| ![imagen 4](/imgs/Image4.png)
 
-## Unidad 4. Soluciones de cumplimiento de Microsoft
+- Apres touche dans exécuter et le flag sera dans l’ autre côte 
 
-TBA
+| ![imagen 5](/imgs/Image5.png)
 
-Hecho con Amor 💖 desde CDMX por [@brujeriatech](https://www.instagram.com/brujeriatech/)
+
+
+### Conclusion
+- La fonction String.fromCharCode en JavaScript est utilisée pour convertir des valeurs Unicode (ou des codes de caractères ASCII) en leurs caractères correspondants. Elle prend un ou plusieurs arguments numériques et renvoie une chaîne de texte formée par les caractères correspondant à ces valeurs.
+
+- String.fromCharCode est un outil puissant pour convertir des codes de caractères numériques en texte lisible. Il est particulièrement utile dans les applications impliquant le déchiffrement de données codées, où les valeurs numériques représentent les caractères d'une chaîne.
+
+# "La sécurité parfaite n'existe pas, seulement des défis perpétuels."
