@@ -9,7 +9,7 @@ _________
 - [JavaScript - Obfuscation 3](#javascript---obfuscation-3)
   - [Write UP](#write-up)
   - [Introduction](#introduction)
-  - [Unidad 1. Conceptos básicos de seguridad, cumplimiento e identidad](#unidad-1-conceptos-básicos-de-seguridad-cumplimiento-e-identidad)
+  - [Comment Ça Marche?](#comment-ça-marche)
     - [Labs](#labs)
     - [Apuntes](#apuntes)
     - [Examen](#examen)
@@ -39,15 +39,12 @@ _________
 
 ## Introduction
 
-- [Video: Fundamentos de Microsoft Azure en español - Preparación AZ-900](https://www.youtube.com/watch?v=rYW75_0RCzU&t=4491s)
+- L'obfuscation en JavaScript est une technique utilisée pour rendre le code source difficile à lire et à comprendre. Cette méthode est souvent employée pour protéger le code contre le vol de propriété intellectuelle, les attaques malveillantes, ou simplement pour minimiser la taille du fichier dans les environnements de production.
 
-- [Glosario SC-900](/docs/glosario.md)
-- [Glosario de términos básicos de tecnología](/docs/V2%20Glosario%20de%20términos%20Innovacción.pdf)
-- [Video: Por si no te lo enseñaron, así funciona una computadora](https://www.youtube.com/watch?v=QS8tEWTmT1c&t=1412s)
 
 _________
 
-## Unidad 1. Conceptos básicos de seguridad, cumplimiento e identidad
+## Comment Ça Marche?
 
 > Obtén información sobre los conceptos básicos fundamentales para la seguridad, el cumplimiento y las soluciones de identidad, como la confianza cero, la residencia de datos, la responsabilidad compartida, el rol de los proveedores de identidades, etc.
 
