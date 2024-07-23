@@ -28,9 +28,6 @@ _________
 | ![Logo SC-900](/imgs/cefim.png){width=300px} | ![Gato Hacker](/imgs/gato-hacker.webp){width=300px} |
 |----------|----------|
 
-1. Revisa los contenidos de Microsoft Learn porque de ahí viene tu examen **[-> DALE CLIC AQUÍ <-](https://learn.microsoft.com/es-es/credentials/certifications/exams/sc-900/)**
-2. Entra diario a la comunidad, contesta preguntas, comparte cosas que encuentres en Internet y que sean de apoyo para toda la comunidad y haz compañer@s de viaje
-3. Revisa los contenidos adicionales de este acordeón
 
 **Recuerda que no tienes que hacer todo sino lo que necesites para aprovechar el viaje y conseguir la certificación**
 
