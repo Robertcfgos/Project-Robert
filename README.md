@@ -25,7 +25,7 @@ _________
 
 _________
 
-| ![Logo SC-900](/imgs/logo_sc900.png){width=300px} | ![Gato Hacker](/imgs/gato-hacker.webp){width=300px} |
+| ![Logo SC-900](/imgs/cefim.png){width=300px} | ![Gato Hacker](/imgs/gato-hacker.webp){width=300px} |
 |----------|----------|
 
 1. Revisa los contenidos de Microsoft Learn porque de ahí viene tu examen **[-> DALE CLIC AQUÍ <-](https://learn.microsoft.com/es-es/credentials/certifications/exams/sc-900/)**
