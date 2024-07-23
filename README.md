@@ -25,7 +25,7 @@ _________
 
 _________
 
-| ![Logo SC-900](/imgs/cefim.png){width=300px} | ![Gato Hacker](/imgs/gato-hacker.webp){width=300px} |
+| ![Logo SC-900](/imgs/cefim.png) | ![Gato Hacker](/imgs/gato-hacker.webp){width=300px} |
 |----------|----------|
 
 
