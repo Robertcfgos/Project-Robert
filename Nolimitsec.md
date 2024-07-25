@@ -9,8 +9,8 @@ _________
 - [Pandorabox](#pandorabox)
   - [Campagne de Compromission Ciblant des Chercheurs en Cybersécurité](#campagne-de-compromission-ciblant-des-chercheurs-en-cybersécurité)
   - [Introduction](#introduction)
-   - [Méthodologie d'Attaque](#méthodologie-dattaque)
-     - [Objectifs des Attaques](#objectifs-des-attaques)
+  - [Méthodologie d'Attaque](#méthodologie-dattaque)
+  - [Objectifs des Attaques](#objectifs-des-attaques)
   - [Prévention et Protection](#prévention-et-protection)
   - [Conclusion](#conclusion)
 
@@ -32,6 +32,8 @@ _________
 
 ## Introduction
 
+[pandorabox](/imgs/pandora-box-large.jpg)
+
 - Pandorabox est le nom donné à une campagne sophistiquée de compromission ciblant spécifiquement des chercheurs en cybersécurité. Cette opération a attiré une attention significative en raison de ses méthodes avancées et de sa focalisation sur un groupe professionnel hautement spécialisé.
 
 ### Contexte
@@ -43,6 +45,7 @@ _________
 
 ## Méthodologie d'Attaque
 
+[pandorabox2](/imgs/080131_Andromeda_8.webp)
  
 1.	### Ingénierie Sociale Avancée
 
@@ -66,6 +69,8 @@ _________
 
 
 ## Objectifs des Attaques
+
+[pandorabox3](/imgs/télécharger.jpeg)
 
 1.	### Vol de Propriété Intellectuelle
 
