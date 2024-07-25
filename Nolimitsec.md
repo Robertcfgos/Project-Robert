@@ -32,7 +32,7 @@ _________
 
 ## Introduction
 
-[pandorabox](/imgs/pandora-box-large.jpg)
+| ![pandorabox](/imgs/pandora-box-large.jpg)
 
 - Pandorabox est le nom donné à une campagne sophistiquée de compromission ciblant spécifiquement des chercheurs en cybersécurité. Cette opération a attiré une attention significative en raison de ses méthodes avancées et de sa focalisation sur un groupe professionnel hautement spécialisé.
 
@@ -45,7 +45,7 @@ _________
 
 ## Méthodologie d'Attaque
 
-[pandorabox2](/imgs/080131_Andromeda_8.webp)
+| ![pandorabox2](/imgs/080131_Andromeda_8.webp)
  
 1.	### Ingénierie Sociale Avancée
 
@@ -70,7 +70,7 @@ _________
 
 ## Objectifs des Attaques
 
-[pandorabox3](/imgs/télécharger.jpeg)
+| ![pandorabox3](/imgs/télécharger.jpeg)
 
 1.	### Vol de Propriété Intellectuelle
 
